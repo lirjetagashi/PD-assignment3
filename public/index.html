@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4e4b4b;
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+            color: antiquewhite;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            left: 0;
+        }
+
+        body {
+            background-color: antiquewhite;
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin-top: 8em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article {
+            float: right;
+            width: 500px;
+            flex: 1;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #4e4b4b;
+            padding: 10px;
+            text-align: center;
+            color: antiquewhite;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .audio {
+            border: 2px solid black;
+            width: 30em;
+            margin-top: 1em;
+            text-align: center;
+            padding-top: 1em;
+            background-color: #4e4b4b;
+            color: antiquewhite;
+            font-family: Arial,serif;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Healthy food to eat during our day</h1>
+</header>
+<section aria-label="Food recommendation">
+    <article>
+        <h2>Breakfast recommendation</h2>
+        <h3>Avocado toast</h3>
+        <p>Avocado is a great way to start your morning!</p>
+        <img src="avocado.jpg" alt="Avocado toast with red chilli flakes" width="250">
+    </article>
+    <article>
+        <h2>Lunch recommendation</h2>
+        <h3>Green salad</h3>
+        <p>Green salad to refresh your body!</p>
+        <img src="salad.jpeg" alt="Green salad with tomatoes" width="250">
+    </article>
+    <article>
+        <h2>Dinner recommendation</h2>
+        <h3>Salmon and rice</h3>
+        <p style="white-space: break-spaces;">Salmon is a great fish and gives you great energy!<br> Pair it with some asparagus and lemon!</p>
+        <img src="salmon.jpeg" alt="Salmon with rice and asparagus" width="250">
+    </article>
+</section>
+<div class="audio" aria-label="Audio Player">
+    <audio controls >
+        <source src="food-music.mp3" type="audio/mpeg">
+    </audio>
+    <p>This is an audio.<br> It is a great music to play while eating your healthy meal! </p>
+</div>
+
+<footer>
+    <p> &copy; Food website, 2022.</p>
+</footer>
+</body>
+</html>
