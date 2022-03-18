@@ -1,6 +1,8 @@
 # PD-assignment3
 Simple accessible website example
 
+URL: https://pd-assignment3.web.app/
+
 # Project owner
 Lirjeta Gashi Created for INFO2300
 
