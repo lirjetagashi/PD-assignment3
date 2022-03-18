@@ -1,7 +1,8 @@
 # PD-assignment3
 Simple accessible website example
 
-# Project owner: Lirjeta Gashi Created for INFO2300
+# Project owner
+Lirjeta Gashi Created for INFO2300
 
 # Installation instructions
 ## Steps:
